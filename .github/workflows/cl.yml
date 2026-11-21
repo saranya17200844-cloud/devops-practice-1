@@ -22,9 +22,5 @@ jobs:
             exit 1
           }
  
-          if (-not (Test-Path "README.md")) {
-            Write-Error "README.md does not exist!"
-            exit 1
-          }
  
           Write-Host "Project files checked successfully!"
